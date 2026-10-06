@@ -1,41 +1,20 @@
-# Lesson 1 AI Repository
+# Python AI Repository
 
-Bu meqamda **Lesson 1 AI** layihəsi və Jupyter Notebook mühiti uğurla qurulmuşdur.
+Süni İntellekt (AI) və Məlumat Analizasiyası üzrə təlim layihələri, standartlar və Jupyter Notebook mühitləri.
 
-## 🚀 Mühiti İşə Salmaq Təlimatı
+## 📂 Repozitoriya Strukturı:
 
-1. **Terminal-da layihə qovluğuna keçin:**
-   ```bash
-   cd "c:\Users\user\Desktop\Python\Lesson 1 AI"
-   ```
-
-2. **Virtual mühiti (venv) aktivləşdirin:**
-   - **Windows (PowerShell):**
-     ```powershell
-     .\venv\Scripts\Activate.ps1
-     ```
-   - **Windows (CMD):**
-     ```cmd
-     .\venv\Scripts\activate.bat
-     ```
-
-3. **Jupyter Notebook-u başladın:**
-   ```bash
-   jupyter notebook
-   ```
-   və ya
-   ```bash
-   jupyter lab
-   ```
-
-4. Brauzerinizdə açılan səhifədə `lesson_1_ai.ipynb` faylını seçib işlədə bilərsiniz.
+- 🤖 **[AI Rules](./AI%20Rules/)** — AI istifadəsi, kodlaşdırma standartları, PEP 8 və vizualizasiya qaydaları notebook-u.
+- 📊 **[Lesson 1 AI](./Lesson%201%20AI/)** — Pandas kitabxanası ilə data analizi və CSV dataset tapşırıqları.
+- 📈 **[Lesson 2 AI](./Lesson%202%20AI/)** — Matplotlib kitabxanası ilə data vizualizasiyası (Line, Bar, Scatter və Inset qrafikləri).
 
 ---
 
-## 📦 Quraşdırılmış Kitabxanalar:
-- **Jupyter Notebook / Lab**
-- **IPyKernel**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Scikit-Learn**
+## 🚀 Mühiti İşə Salmaq
+
+İstənilən dərs qovluğuna keçərək Jupyter Notebook mühitində tapşırıqları işə sala bilərsiniz:
+
+```bash
+cd "Lesson 1 AI"  # və ya "Lesson 2 AI"
+jupyter notebook
+```
